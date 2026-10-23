@@ -1,0 +1,6 @@
+{
+  "name": "Coach Basil — Your Fitness Partner",
+  "description": "Premium personal fitness coach portfolio for Coach Basil offering personalized training at your place.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --color-brand-yellow: #FFD21F;
+}
+
+:root {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color-scheme: dark;
+}
+
+.font-condensed {
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+/* Subtle gold and yellow glow utilities */
+.glow-yellow {
+  box-shadow: 0 0 35px -5px rgba(255, 210, 31, 0.25);
+}
+
+.glow-yellow-sm {
+  box-shadow: 0 0 15px -3px rgba(255, 210, 31, 0.3);
+}
+
+.glow-gold-border {
+  border-color: rgba(255, 210, 31, 0.4);
+}
